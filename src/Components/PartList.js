@@ -10,6 +10,7 @@ function PartList({ total, path, set, selected, zoom = 1, top = "50%" }) {
         onClick={() => set(i)}
       >
         <img
+          alt=""
           src={`character/${path}/${i + 1}.png`}
           height={60 * zoom}
           className="img-selection"
